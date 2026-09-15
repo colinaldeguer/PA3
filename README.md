@@ -53,3 +53,4 @@ In this problem, it requires selecting several specific car models from the data
 selected_cars = cars.loc[cars["Model"].isin(["Datsun 710", "Lotus Europa", "Ferrari Dino"]), ["Model", "mpg", "cyl", "hp", "gear"]]
 selected_cars
 ```
+In this part of the code, the isin() function is used to search for three specific models: Datsun 710, Lotus Europa, and Ferrari Dino. It then selects only the Model, mpg, cyl, hp, and gear columns and stores the results in a new DataFrame named selected_cars.
